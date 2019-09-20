@@ -1,0 +1,277 @@
+﻿version 3.00
+cm_version 1.0
+platform CM-510
+o main
+o begin
+o load param_dest:cm:22 param_src:channel_num:255
+o load param_dest:motion:1:50 param_src:dec_num:1
+o while(1)
+o begin
+o if param_src:cm:2 lop:== param_src:bool_num:1 rop:then
+o begin
+- 
+o load param_dest:var:data param_src:cm:1
+o if param_src:var:data lop:== param_src:rc100z_num:1 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:1
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:2 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:2
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:3 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:3
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:4 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:4
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:5 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:5
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:6 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:6
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:7 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:7
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:8 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:8
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:9 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:9
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:10 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:10
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:11 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:11
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:12 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:12
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:13 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:13
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:14 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:14
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:15 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:15
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:16 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:16
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:17 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:17
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:18 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:18
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:19 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:19
+- 
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:20 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:20
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:21 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:21
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:22 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:22
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:23 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:23
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:24 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:24
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:25 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:25
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:26 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:26
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:27 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:27
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:28 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:28
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:29 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:29
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:30 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:30
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:31 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:31
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:32 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:32
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:33 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:33
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:34 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:34
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:35 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:35
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:36 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:36
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:37 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:37
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:38 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:38
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:39 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:39
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:40 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:40
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:41 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:41
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:42 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:42
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:43 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:43
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:44 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:44
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:45 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:45
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:46 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:46
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:47 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:47
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:48 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:48
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:49 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:49
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:50 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:50
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:51 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:51
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:52 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:52
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:53 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:53
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:54 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:54
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:55 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:55
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:56 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:56
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:57 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:57
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:58 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:58
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:59 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:59
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:60 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:60
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:61 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:61
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:62 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:62
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:63 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:63
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:64 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:64
+o end
+o elseif param_src:var:data lop:== param_src:rc100z_num:65 rop:then
+o begin
+o load param_dest:motion:1:50 param_src:dec_num:65
+o end
+o end
+o end
+o end
